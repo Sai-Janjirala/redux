@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-main: #101828;
+  --bg-card: #1e293b;
+  --bg-light: #334155;
+  --blue: #2563eb;
+  --text-main: #f8fafc;
+  --text-muted: #cbd5e1;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
