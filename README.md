@@ -12,6 +12,9 @@ Pexels API
 Screenshots
 Add your screenshots here:
 
+deployment link -> media-searchh.netlify.app
+
+
 Future Improvements
 Persist collection data with localStorage
 Add pagination or infinite scroll
